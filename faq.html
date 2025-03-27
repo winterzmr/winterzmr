@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .faq-section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-question {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .faq-answer {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const questions = document.querySelectorAll(".faq-question");
+            questions.forEach(question => {
+                question.addEventListener("click", () => {
+                    const answer = question.nextElementSibling;
+                    answer.style.display = answer.style.display === "block" ? "none" : "block";
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="faq-section">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-item">
+            <div class="faq-question">What is this website about?</div>
+            <div class="faq-answer">This website provides information and resources about various topics.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How can I contact support?</div>
+            <div class="faq-answer">You can contact support by emailing us at support@example.com.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Is there a subscription fee?</div>
+            <div class="faq-answer">No, this website is completely free to use.</div>
+        </div>
+    </div>
+</body>
+</html></div>

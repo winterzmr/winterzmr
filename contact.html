@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - But Make It Fun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff6347;
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px dashed #ff6347;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #ff6347;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #ff4500;
+        }
+        .funny-note {
+            margin-top: 20px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us (We Don't Bite!)</h1>
+    <p>Have questions, comments, or just want to send us a joke? Fill out the form below!</p>
+    <div class="contact-form">
+        <form>
+            <label for="name">Name (or your superhero alias):</label>
+            <input type="text" id="name" name="name" placeholder="e.g., Bruce Wayne" required>
+            
+            <label for="email">Email (we promise not to spam):</label>
+            <input type="email" id="email" name="email" placeholder="e.g., batman@gotham.com" required>
+            
+            <label for="message">Message (or your favorite joke):</label>
+            <textarea id="message" name="message" rows="5" placeholder="Why did the web developer go broke? Because he used up all his cache!" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <p class="funny-note">P.S. If you don't hear back, we might be busy debugging life!</p>
+    </div>
+</body>
+</html>

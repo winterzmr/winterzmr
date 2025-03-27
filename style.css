@@ -1,0 +1,34 @@
+/* General body styling */
+body {
+  background-color: #f8f9fa; /* Light background color */
+  font-family: Arial, sans-serif; /* Add a clean, modern font */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Improve text readability */
+}
+
+/* Header styling */
+h1 {
+  color: #343a40; /* Dark header color */
+  font-size: 2.5rem; /* Make the header more prominent */
+  margin-bottom: 1rem; /* Add spacing below the header */
+  text-align: center; /* Center-align the header */
+}
+
+/* Lead paragraph styling */
+p.lead {
+  font-size: 1.25rem; /* Slightly larger font size for emphasis */
+  color: #495057; /* Subtle text color for better contrast */
+  margin-bottom: 1.5rem; /* Add spacing below the paragraph */
+  text-align: justify; /* Improve text alignment for readability */
+}
+
+/* Optional: Add some global link styling */
+a {
+  color: #007bff; /* Bootstrap-like blue color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover for clarity */
+}

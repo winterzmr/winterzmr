@@ -1,14 +1,16 @@
-## Hi there 👋
+## Hi there! 👋  
 
-**winterzmr/winterzmr** is a ✨ _special_ ✨ repository because its README.md appears on your GitHub profile.
+Welcome to my GitHub profile! I'm **winterzmr**, a passionate developer who loves exploring new technologies and building cool stuff.  
 
-Here are some ideas to get you started:
+### 🚀 About Me  
+> ⚠️ **Disclaimer:** The following information is a simulation and does not reflect real data.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 🔭 I’m currently working on **a personal AI chatbot project**  
+- 🌱 I’m currently learning **React, TypeScript, and Machine Learning**  
+- 👯 I’m looking to collaborate on **open-source AI and web development projects**  
+- 🤔 I’m looking for help with **optimizing deep learning models**  
+- 💬 Ask me about **JavaScript, Python, or anything AI-related!**  
+- 😄 Pronouns: **he/him**  
+- ⚡ Fun fact: **I can solve a Rubik’s cube in under a minute!**  
+
+Thanks for stopping by! 😊
